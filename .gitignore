@@ -1,0 +1,78 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+.env
+.venv/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -----------------------------
+# Datasets
+# -----------------------------
+evaluation.zip
+
+
+
+# Keep README if present
+!runs/README.md
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+events.out.tfevents.*
+
+# -----------------------------
+# Cache
+# -----------------------------
+.cache/
+*.cache
+
+# -----------------------------
+# Temporary Files
+# -----------------------------
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# -----------------------------
+# Operating System Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# LaTeX Build Files
+# -----------------------------
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# -----------------------------
+# Reports (optional)
+# -----------------------------
+# Uncomment if PDFs should not be tracked
+# *.pdf
